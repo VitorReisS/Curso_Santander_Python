@@ -1,6 +1,6 @@
 Os operadores são símbolos especiais que nos permitem realizar operações em variáveis e valores. Python fornece diferentes tipos de operadores para realizar operações aritméticas, comparações e operações lógicas.
 
-** Aritméticos
+*** Aritméticos
 Os operadores aritméticos são utilizados para realizar operações matemáticas básicas. Os principais operadores aritméticos em Python são:
 
 * Soma (+): soma dois valores.
@@ -23,7 +23,7 @@ Exemplos:
     exponenciacao = a ** b   # 1000
  
 
-** De comparação
+*** De comparação
 Os operadores de comparação são utilizados para comparar dois valores e devolvem um valor booleano (True ou False) segundo o resultado da comparação. Os operadores de comparação em Python são:
 
 * Igual a (==): devolve True se ambos os valores são iguais.
@@ -44,7 +44,7 @@ Exemplos:
     menor ou igual = a <= b   # False
  
 
-** Lógicos
+*** Lógicos
 Os operadores lógicos são utilizados para combinar expressões condicionais e avaliar múltiplas condições. Os operadores lógicos em Python são:
 
 * AND (and): devolve True se ambas as condições são verdadeiras.
