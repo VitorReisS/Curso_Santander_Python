@@ -1,9 +1,9 @@
 As estruturas de dados nos permitem organizar e armazenar dados de maneira eficiente em nossos programas. Python fornece várias estruturas de dados integradas, como listas, tuplas, dicionários e conjuntos, cada uma com suas próprias características e usos.
 
-** Listas
+*** Listas
 Uma lista é uma estrutura de dados mutável e ordenada que permite armazenar uma coleção de elementos. Os elementos de uma lista podem ser de diferentes tipos de dados e são encerrados entre colchetes [], separados por vírgulas.
 
-* Criação e acesso
+** Criação e acesso
 Para criar uma lista, simplesmente encerre os elementos entre colchetes:
     frutas = ["maçã", "banana", "laranja"]
 Para acessar os elementos de uma lista, utilize o índice do elemento entre colchetes. Os índices começam a partir de 0.
@@ -16,7 +16,7 @@ Para acessar os elementos de uma lista, utilize o índice do elemento entre colc
     print(frutas[-2])  # Imprime "banana"
     print(frutas[-3])  # Imprime "maçã"
  
-* Métodos de listas
+** Métodos de listas
 As listas em Python têm vários métodos incorporados que nos permitem manipular e modificar os elementos da lista. Alguns métodos comuns são:
 
 * append(elemento): adiciona um elemento ao final da lista.
@@ -47,7 +47,7 @@ Exemplo:
     frutas.reverse()
     print(frutas)  # Imprime ["uva", "pera", "maçã"]
  
-* Listas de compreensão
+** Listas de compreensão
 As listas de compreensão são uma forma concisa de criar novas listas baseadas em uma sequência existente. Permitem filtrar e transformar os elementos de uma lista em uma única linha de código.
     nova_lista = [expressão for elemento in sequência if condição]
 Exemplo:
