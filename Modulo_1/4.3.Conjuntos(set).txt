@@ -1,6 +1,6 @@
 Um conjunto é uma estrutura de dados mutável e não ordenada que permite armazenar uma coleção de elementos únicos. Os conjuntos são delimitados por chaves {} ou são criados utilizando a função set().
 
-* Criação e operações básicas
+** Criação e operações básicas
 Para criar um conjunto, utilize chaves ou a função set():
     frutas = {"maçã", "banana", "laranja"}
     numeros = set([1, 2, 3, 4, 5])
